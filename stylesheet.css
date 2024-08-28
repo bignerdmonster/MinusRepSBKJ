@@ -16,7 +16,8 @@ body {
     background-color: aliceblue;
 }
 .baritem {
-    margin: left 2%, right 2%, top 0.5%, bottom 0.5%;
+    padding: left 2%, right 2%, top 0.5%, bottom 0.5%;
+    max-width: 10%;
     background-color: darkseagreen;
 }
 .baritem p {
