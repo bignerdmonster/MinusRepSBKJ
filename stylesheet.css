@@ -4,7 +4,7 @@ body {
     background-image: url(./media/bigrat.jpg);
     margin:auto
 }
-#menubar {
+.menubar-bar {
     max-width: 60%;
     display: flex;
     flex-direction: row;
