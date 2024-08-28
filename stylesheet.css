@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Faster+One&display=swap');
+
 body {
     background-image: url(./media/bigrat.jpg);
     margin:auto
@@ -28,4 +30,11 @@ body {
     font-family: 'Comic Sans MS', Arial;
     font-size: 100%;
 }
-#title {}
+#title {
+    background-color: rgb(255,255,255);
+    margin: auto;
+    font-family: "Faster One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-color: rgb(0,0,0);
+}
