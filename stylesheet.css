@@ -1,3 +1,28 @@
 body {
-    background-image: url(media/bigrat.jpeg);
+    background-image: url(media/bigrat.jpg);
+    margin:auto
+}
+.menubar {
+    max-width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 3%;
+
+    border-radius: 1%;
+    border-color: crimson;
+    border-style: ridge;
+    margin: left 12.5%, right 12.5%;
+    background-color: aliceblue;
+}
+.baritem {
+    margin: left 2%, right 2%, top 0.5%, bottom 0.5%;
+    background-color: darkseagreen;
+}
+.baritem p {
+    text-align: center;
+    size: 75%;
+    text-align: center;
+    font-family: 'Comic Sans MS', Arial;
+    font-size: 100%;
 }
