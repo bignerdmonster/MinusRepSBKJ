@@ -1,5 +1,5 @@
 body {
-    background-image: url(media/bigrat.jpg);
+    background-image: url(/media/bigrat.jpg);
     margin:auto
 }
 .menubar {
@@ -26,3 +26,4 @@ body {
     font-family: 'Comic Sans MS', Arial;
     font-size: 100%;
 }
+#title {}
