@@ -9,8 +9,9 @@ function clicked() {
     if (rn == 50.0) {
         alert("YOU DID IT LMAO WE DIDN'T THINK IT POSSIBLE");
     };
-    nr = 100 - rn;
+    nr = String(100 - rn);
     rn.toString();
-    document.getElementById('theButton').style.margin = `0 ${rn} 0 ${nr}`;
+    document.getElementById('theButton').style.left = `${rn}%`;
+    document.getElementById('theButton').style.right = `${nr}%`;
     document.getElementById('counter').innerHTML = `You have attempted to center the div ${count} times! or tried`;
 };
