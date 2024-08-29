@@ -45,7 +45,7 @@ body {
     border-style: inset;
     border-color: black;
 }
-.baritem p {
+.baritem a {
     text-align: center;
     size: 75%;
     text-align: center;
