@@ -11,7 +11,8 @@ function clicked() {
     };
     nr = String(100 - rn);
     rn.toString();
+    document.getElementById('theButton').style.position = 'absolute';
     document.getElementById('theButton').style.left = `${rn}%`;
     document.getElementById('theButton').style.right = `${nr}%`;
-    document.getElementById('counter').innerHTML = `You have attempted to center the div ${count} times! or tried`;
+    document.getElementById('counter').innerHTML = `You have attempted to center the div ${count} times!`;
 };
