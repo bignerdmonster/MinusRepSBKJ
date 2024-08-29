@@ -1,5 +1,3 @@
-
-
 let count = 0;
 let rn = 0;
 let nr = 0;
@@ -11,6 +9,7 @@ function clicked() {
     };
     nr = String(100 - rn);
     rn.toString();
+    document.getElementById('trolled').hidden = false;
     document.getElementById('theButton').style.position = 'absolute';
     document.getElementById('theButton').style.left = `${rn}%`;
     document.getElementById('theButton').style.right = `${nr}%`;
