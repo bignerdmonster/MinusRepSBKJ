@@ -81,7 +81,7 @@ body {
     padding-left: 2.5%;
     padding-right:2.5%;
     padding-top: 1%;
-    padding-bottom: 1%;
+    padding-bottom: 6%;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
@@ -93,4 +93,34 @@ body {
     text-align: left;
     font-size: 100%;
     font-weight: 100;
+}
+.contentdiv table {
+    margin: auto;
+    border-color: black;
+    border-radius: 5px;
+    border-width: 10px;
+    border-style: groove;
+    min-width: 85%;
+    padding: 10px;
+}
+
+.contentdiv td,.contentdiv tr {
+    border-color: black;
+    border-style: solid;
+    color: blue;
+    border-width: 5px;
+    padding-left: auto;
+    padding-right: auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family:"Faster One";
+    font-size: 20px;
+}
+.keys td {
+    border-style: double;
+    border-color: red;
+    font-family: "Comic Sans MS";
+    color:deeppink;
+    font-size:26px;
+    font-weight: 1000;
 }
