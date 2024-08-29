@@ -1,5 +1,5 @@
-const counter = document.getElementById("counter");
-const button = document.getElementById("theButton");
+
+
 let count = 0;
 let rn = 0;
 let nr = 0;
@@ -11,6 +11,6 @@ function clicked() {
     };
     nr = 100 - rn;
     rn.toString();
-    button.style.margin = `0 ${rn} 0 ${nr}`;
-    counter.innerHTML = `You have attempted to center the div ${count} times!`;
+    document.getElementById('theButton').style.margin = `0 ${rn} 0 ${nr}`;
+    document.getElementById('counter').innerHTML = `You have attempted to center the div ${count} times! or tried`;
 };
