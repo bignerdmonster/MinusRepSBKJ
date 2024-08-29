@@ -4,7 +4,6 @@ let count = 0;
 let rn = 0;
 let nr = 0;
 function clicked() {
-    alert("works!")
     count ++;
     rn = (Math.random()*100);
     if (rn == 50.0) {
